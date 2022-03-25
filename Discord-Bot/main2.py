@@ -18,13 +18,12 @@ async def on_ready(): # this event is called when the bot is ready to be used
 
 @client.event
 async def on_message(message): # when the bot revies a message from the person this event is called andis triggered each time a message is received
-    if message.author == client.user: # but if the message is from oursleves, we dont want the code to run so we return it
-        return
 
-    if message.content.startswith("$gimmedate"): # here the code checks to see if the message starts with a specific string to prompt the bot to reply
-        date = date_generator(dates, "beep boop bap... the date generator ^tm has picked:")
+    # print(message)
+
+    if (message.author.id == 956370482582667265):
+        date = date_generator(dates, "woah woah woah... Date Bot you suck. Here's a BETTER date B) ")
         await message.channel.send(date)
 
 
-
-client.run(os.getenv('TOKEN'))
+client.run(os.getenv('TOKEN2'))

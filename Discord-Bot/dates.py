@@ -1,0 +1,1 @@
+dates = ["Movie night!", "Hike!", "Make pizzas!", "Sexy night with bubble bath and candels!", "Dance night in the living room!", "All you can eat sushi!", "Finish each others paintings!", "Skinny dipping!", "Star gazing!", "Couch fort!", "Take apart computer!", "Photo shoot!"]
